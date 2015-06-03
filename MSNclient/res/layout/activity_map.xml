@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/uestcblue"
+    tools:context=".MapActivity" >
+	    
+   	<RelativeLayout
+        android:layout_width="fill_parent"
+		android:layout_height="425dp"
+       	>
+		<com.baidu.mapapi.map.MapView
+			android:id="@+id/bmapView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:clickable="true" />
+
+		<TextView
+			android:id="@+id/longla_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginLeft="14dp"
+			android:layout_marginTop="22dp"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+		<ListView
+		    android:id="@+id/listView_map_actvity"
+		    android:layout_width="120dp"
+		    android:layout_height="150dp"
+		   	android:layout_alignParentRight="true"
+		   	android:layout_alignParentTop="true"
+	  	 >
+		</ListView>
+ 	</RelativeLayout>
+
+ 
+ 	 <Button
+      android:id="@+id/location_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="10dp"
+      android:layout_centerHorizontal="true"
+      android:background="#00AFFF"
+      android:textColor="#FFFFFF"
+      android:text="定位" />
+
+  <Button
+      android:id="@+id/upload_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginLeft="30dp"
+      android:layout_toRightOf="@+id/location_bt"
+      android:background="#00AFFF"
+      android:textColor="#FFFFFF"
+      android:text="共享" />
+
+	<Button
+	    android:id="@+id/getFriendLocation_bt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="30dp"
+	    android:layout_toRightOf="@+id/upload_bt"
+	    android:background="#00AFFF"
+	    android:textColor="#FFFFFF"
+	    android:text="获取" />
+	
+	<Button
+	    android:id="@+id/test_bt_map"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="30dp"
+	    android:layout_toRightOf="@+id/getFriendLocation_bt"
+	    android:background="#00AFFF"
+	    android:textColor="#FFFFFF"
+	    android:text="测试" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSN</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="friend">好友</string>
+    <string name="community">社团</string>
+    <string name="map">地图</string>
+    <string name="title_activity_main">activity_main</string>
+    <string name="title_activity_dialog">activity_dialog</string>
+    <string name="title_activity_friend">activity_friend</string>
+    <string name="title_activity_searchfriend">activity_searchdialog</string>
+    <string name="title_activity_map">activity_map</string>
+    <string name="title_activity_community">activity_community</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_r">RActivity</string>
+    <string name="title_activity_query_community">QueryCommunityActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_query_recommend">QueryRecommendActivity</string>
+
+</resources>
